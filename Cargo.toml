@@ -1,6 +1,6 @@
 [package]
 name = "simple-pulse-desktop-capture"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jorik van Veen"]
 description = "Easily capture PulseAudio PCM audio from the default playback device"
 edition = "2021"
