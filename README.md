@@ -2,7 +2,7 @@
 Capture PulseAudio desktop audio with ease.
 
 # Getting started
-This crate exports the DesktopAudioRecorder struct, simply instantiate it with new and call `.read\_frame()` in a loop to start recieving PCM audio data.
+This crate exports the DesktopAudioRecorder struct, simply instantiate it with new and call `.read_frame()` in a loop to start recieving PCM audio data.
 
 ## Example
 This example captures desktop audio and prints the PCM data for 5 seconds before quitting.
