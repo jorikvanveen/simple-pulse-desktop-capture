@@ -1,0 +1,16 @@
+[package]
+name = "simple-pulse-desktop-capture"
+version = "0.1.0"
+authors = ["Jorik van Veen"]
+description = "Easily capture PulseAudio PCM audio from the default playback device"
+edition = "2021"
+license = "MIT"
+
+[lib]
+crate-type = ["lib"]
+doc = true
+path = "src/lib.rs"
+
+[dependencies]
+libpulse-binding = "2.27.1"
+thiserror = "1.0.38"
